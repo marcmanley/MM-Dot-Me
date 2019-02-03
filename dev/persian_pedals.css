@@ -1,0 +1,457 @@
+/*  
+Theme Name: Persian Pedals
+Theme URI: http://www.marcmanley.com/downloads/persian-pedals.zip
+Description: Made in Tehran 
+Version: 1.0
+Author: Marc Manley
+Tags: fixed width, one columns w/three column footer, no widgets [well, you could add them if you like but I'm getting out of the technology business.
+
+A WordPress by Marc Manley || http://www.marcmanley.com
+Inspired by the design of a book entitled, Persian Proverbs, well, that's all I have to say!
+Feel free to tweak as you like just drop me a line if you do.
+Author URI: http://www.marcmanley.com
+License: &copy; 2010 Marc Manley
+Last updated 2/23/2010
+*/
+
+/* Site Colors
+
+red: b12321
+dark gray: 464646
+light gray: b2b2b2
+*/
+
+/* Reboot */
+
+* { 
+margin: 0; 
+padding: 0; 
+}
+
+/* Tags */
+
+body { 
+background: url(464646.png) repeat #fff;
+color: #000;
+font-size: 100%; 
+font-weight: normal; 
+width: 100%;
+}
+
+html, body { height: 100%; }
+
+a {
+color: #b12321; 
+text-decoration: none;
+}
+
+a:hover {
+color: #e6631d; 
+}
+
+p {
+margin-bottom: 1em; 
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img { 
+border: none; 
+max-width: 100%;
+}
+
+blockquote { 
+margin: 15px 0 15px 0;
+padding: 0 5px 0 25px; 
+color: #333; 
+font-family: "Courier New", Courier, monospace; 
+background: #000;
+}
+
+ul li { 
+list-style: none; 
+}
+
+ol { 
+list-style: outside; 
+padding: 15px 50px 15px 50px; 
+font-family: Georgia, serif; 
+font-size: 1em; 
+background: #333; 
+border-top: 2px #555 solid; 
+border-right: 2px #555 solid; 
+border-bottom: 2px #555 solid; 
+border-left: 20px #555 solid;
+color: #fff;
+}
+
+ol li { 
+margin: 0 0 8px 0; 
+}
+
+textarea { 
+width: 750px; }
+
+/* ID's */
+
+    /* Layout */
+
+#al-kull { 
+margin: 0; 
+padding: 0;  
+background: #fff;
+}
+
+#trenchcoat { 
+margin: 0 auto; 
+width: 100%; 
+background: #fff; 
+}
+
+#logo { 
+padding-top: 5px; 
+text-align: center;
+width: 100%; 
+background: #fff; 
+float: left; 
+border-bottom: 2px solid #464646; 
+}
+
+#logo img
+{ 
+border: 0; 
+padding-bottom: 8px;
+}
+
+#trenchcoat2 { 
+clear: both; 
+margin: 0 auto; 
+width: 100%;  
+ 
+/* Maybe at some point
+background: url(../imgs/index/fez.png) no-repeat right bottom; 
+*/
+}
+
+#content { 
+margin: 0 auto; 
+/* width: 775px; */
+width: 65%;
+padding: 5px 0 15px 0; 
+}
+
+#content h1, h2, h3, h4 {
+font: 110% normal 'Alfa Slab One', cursive;
+}
+
+#content h2, h4 { 
+text-align: left; 
+}
+
+#content h2 { 
+margin: 0 0 10px 0;
+font-size: 1.8em; 
+color: #fff;
+}
+
+#content h4 { 
+font-size: 1.3em; 
+color: #fff; 
+text-transform: uppercase; 
+text-decoration: underline; 
+padding: 5px 0 0 0;
+}
+
+#content h4.photo { 
+font-size: 1.2em; 
+padding: 5px 0 10px 0; 
+}
+
+#content h5 { 
+color: #c2c2c2; 
+font-size: 1.6em; 
+text-transform: capitalize; 
+padding: 15px 0 15px 0; 
+}
+
+#content p { 
+margin: 0;
+padding: 5px 25px 15px 0; 
+background: #fff; 
+text-align: left; 
+height: auto; 
+line-height: 1.25; 
+font: normal 120% 'Libre Baskerville', serif;
+color: #232323;
+/* border: #333 1px solid; */
+overflow: hidden;
+}
+
+#content blockquote { 
+border: #888 dotted 1px; 
+}
+
+#content blockquote p { 
+margin: 0;
+padding: 15px 25px 15px 25px; 
+color: #fff; 
+font-family: Georgia, "Times New Roman", Times, serif;
+background: #000; 
+border: none;
+}
+
+#content ul { 
+list-style: outside; 
+padding: 15px 50px 15px 50px; 
+font-family: Georgia, serif; 
+font-size: 1em; 
+background: #ededed; 
+border-top: 2px #555 solid; 
+border-right: 2px #555 solid; 
+border-bottom: 2px #555 solid; 
+border-left: 20px #555 solid;
+color: #555;
+}
+
+#content ul li { 
+margin: 0 0 8px 0; 
+}
+
+#content ol { 
+list-style: outside; 
+padding: 15px 25px 15px 50px; 
+font-family: Georgia, serif; 
+font-size: 1em; 
+background: #333; 
+border-top: 2px #555 solid; 
+border-right: 2px #555 solid; 
+border-bottom: 2px #555 solid; 
+border-left: 20px #555 solid;
+color: #fff; 
+width: 650px;
+}
+
+#content ol li { 
+margin: 0 0 8px 0; 
+}
+
+#content a, a:link, a:visited { 
+font-weight: bold; 
+color: #b12321; 
+text-decoration: none;
+}
+
+#content a:hover {
+/*color: #e6631d;*/ 
+border-bottom: dotted 1px /*#e6631d*/;
+}
+
+#content img { 
+float: left; 
+padding: 0 8px 0 0; 
+}
+
+#content p.crumbs { 
+margin: 15px 0 0 0; 
+padding: 0 0 15px 0;
+background: none; 
+color: #333; 
+border: none;
+font-family: normal 'Kaushan Script', 'Libre Baskerville', serif;
+font-size: 1.2em;
+}
+
+#content .crumbs a, a:link, a:visited { 
+color: #fff; 
+}
+
+#content .crumbs a:hover { 
+border-bottom: 1px #fff dotted; 
+}
+
+#content .showcase li a:link, .showcase li a:visited{
+font-size: 14px;
+}
+
+/*
+#lower_nav li a:link, #lower_nav li a:visited {
+color: #fff;
+display: block;
+}
+*/
+
+/*
+#lower_nav li a:hover {
+border-bottom: #fff 1px dotted;
+}
+*/
+
+/*bottom bar----------------*/
+
+#breach { 
+clear: both; 
+padding: 25px 0 0 0; 
+width: 100%; 
+background: #333; 
+border-bottom: 1px #efefef solid; 
+}
+
+#breach a:hover { 
+color: #f0f0f0;
+border-top: #fff dotted 1px; 
+border-bottom: #fff dotted 1px;
+}
+
+#lower_nav { 
+margin: 0 auto; 
+clear: both; 
+/* width: 800px; */
+width: 65%;
+padding: 0 0 45px 0; 
+color: #fff; 
+overflow: hidden;
+background: #333 url(../../../../imgs/index/sandal.png) no-repeat bottom right; 
+line-height: 1.7; 
+/* Try this tomorrow w/IE7
+min-height: 600px;
+height:auto !important;
+height: 600px;
+*/
+position: relative; 
+padding: 0 0 130px 0;
+/*
+By adding position: relative; to the governing <div>, IE7 will recognize the padding applied to the bottom of the <div>. Without it, it will not register. This works thus far in all browswers: Safari, FF Mac/PC, IE7.
+*/
+}
+
+#lower_nav h4 { 
+margin: 0 auto;
+padding: 8px 8px 8px 16px;
+font-family: Georgia, serif;
+font-size: 1.2em;
+background: #555 /* url(../imgs/index/h4_pp.png) top right no-repeat */; 
+border-left: 10px #b12321 solid;
+}
+
+#lower_nav .col1 { 
+/* width: 225px; */
+width: 25%;
+float: left;
+display: inline;
+}
+
+#lower_nav .col1 ul { 
+padding: 10px 0 10px 0; 
+list-style: none;
+}
+
+#lower_nav .col1 li { 
+padding: 10px 0 10px 0; 
+text-align: justify;
+}
+
+#lower_nav .col1 li a img { 
+border: none; 
+}
+
+.col1 img { 
+border: 10px solid #fff; 
+}
+
+#lower_nav .col2 { 
+/* width: 235px; */ 
+width: 25%;
+padding: 0 30px 0 0;
+float: left;
+margin-left: 50px;
+display: inline;
+}
+
+#services li { 
+list-style: none;  
+}
+
+#services a.col2 { 
+padding: 5px 0 0 5px; 
+color: #fff;
+}
+
+#services li a, a:link, a:visited { 
+color: #fff;
+}
+
+#lower_nav .col3 { 
+/* width: 225px; */ 
+width: 25%;
+float: left;
+margin-left: 20px;
+display: inline; 
+}
+
+#lower_nav .col3 p { 
+padding: 0 0 0 7px;
+}
+
+#footer {
+padding: 0;	
+clear: both;
+overflow: hidden;
+}
+
+#footer .inside{
+margin: 0;
+padding: 15px 0 10px 0;	
+color: #9a9a9a;
+text-align: center;
+background: #000;
+}
+
+#footer .inside a:link, #footer .inside a:visited {
+color: #fff; 
+font-weight: normal;
+}
+
+#footer p {	
+font-family: Georgia, sans-serif;
+}
+
+#footer_content { 
+margin: 0 auto; 
+text-align: left; 
+width: 800px; 
+}
+
+/* Classes */
+
+.border { 
+border-top: 3px solid #333; 
+border-bottom: 3px solid #333; 
+}
+
+.links { 
+padding: 15px 5px 5px 0;
+}
+
+.links li{	
+list-style: none;  
+}
+
+.links a { 
+padding: 5px 0 5px 0; 
+color: #fff; 
+}
+
+.links li a, a:link, a:visited { 
+color: #fff; 
+}
+
+.no_border { 
+border: none; 
+}
+
+.showcase li{
+padding-bottom: 15px;
+}
+
+.showcase li img{
+margin-top: 7px;
+}
